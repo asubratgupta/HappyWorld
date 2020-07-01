@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Something very special to you!</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #128C7E;
+  color: white;
+}
+
+.fa-phone {
+  background: #34B7F1;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+</style>
+
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</head>
+
+<body>
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*2020-07-01 (The Day, We Met).</span><br />
+			<span class="space"/><span class="comments">*/</span><br />
+
+			When i got a <span class="keyword">Ring,</span><br />
+			In my <span class="keyword">Phone.</span><br />
+			Oh Its a <span class="keyword">Request,</span><br />
+			From an <span class="keyword">IoTion!</span><br />
+			<br/>
+			Before checking,<br />
+			If there is any common <span class="keyword">Interest.</span><br />
+			Brain <span class="keyword">Hijacked,</span><br />
+			Coz you looks like a <span class="keyword">Princess!</span><br />
+			<br/>
+			I dropped a <span class="keyword">MSG,</span><br />
+			& you replied very <span class="keyword">Fast!</span><br />
+			This made me <span class="keyword">Happy,</span><br />
+			& speedup <span class="keyword">Beats</span> of my <span class="keyword">Heart!</span><br />
+			<br/>
+			It was very  <span class="keyword">Nice,</span><br />
+			to talk to <span class="keyword">you!</span><br />
+			Hope you also found it <span class="keyword">Nice,</span><br />
+			to talk to <span class="keyword">Me!</span><br />
+			<br/>
+			When you asked my insta <span class="keyword">ID,</span><br />
+			<span class="keyword">Facebook</span> instead.<br />
+			I am <span class="keyword">active</span> member there,<br />
+			<span class="keyword">Since</span> that.<br />
+			<br/>
+			Your style of sending <span class="keyword">Heart</span> Emoji,<br />
+			<span class="keyword">Frequently!</span><br />
+			It made me fall in <span class="keyword">Love</span>  with <span class="keyword">You,</span><br />
+			<span class="keyword">Accidently!.</span><br />
+			<br/>
+
+			<!-- <br>
+			*****************
+			<br>
+
+			Boy name = <span class="keyword">Mr</span> Subrat<br />
+			Girl name = <span class="keyword">Mrs</span> You<br />
+			<span class="comments">// Fall in love river. </span><br />
+			The boy loves the girl;<br />
+			<span class="comments">// They love each other.</span><br />
+			The girl loves the boy;<br />
+			<span class="comments">// AS time goes on.</span><br />
+			The boy can not be separated from the girl;<br />
+			<span class="comments">// At the same time.</span><br />
+			The girl can not be separated from the boy;<br />
+			<span class="comments">// Both wind and snow all over the sky.</span><br />
+			<span class="comments">// Whether on foot or 5 kilometers.</span><br />
+			<span class="keyword">The boy</span> is very <span class="keyword">happy</span>;<br />
+			<span class="keyword">The girl</span> is also very <span class="keyword">happy</span>;<br />
+			<span class="placeholder"/><span class="comments">// Whether it is right now</span><br />
+			<span class="placeholder"/><span class="comments">// Still in the distant future.</span><br />
+			<span class="placeholder"/>The boy has but one dream;<br />
+			<span class="comments">// The boy hopes the girl would still be happy.</span><br />
+			<br>
+			<br>
+			I want to say:<br />
+			Baby, I love you forever;<br /> -->
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					You made a first impression on me that I can’t forget,<br>
+					and it must have made me fall for you.
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					From。-<br/>
+					<div class="signature">- Mr。Subrat </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<h1 id="code">
+	Looking forward to hear from you...</h1>
+<a href="https://www.facebook.com/TechnicalSubrat2" class="fa fa-facebook"></a>
+<a href="https://api.whatsapp.com/send?phone=+919456908427&text=Hi%20subrat.gt" class="fa fa-whatsapp"></a>
+<a href="tel:+919456908427" class="fa fa-phone"></a>
+<a href="https://www.linkedin.com/in/asubratgupta/" class="fa fa-linkedin"></a>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2020, 5, 30);
+together.setHours(10);
+together.setMinutes(49);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+</body>
+</html>

@@ -1,2 +1,3 @@
-# HappyWorld
-Just a Pypi Package
+# Example Package
+
+This is my first package ever for someone special!!
